@@ -6,6 +6,7 @@
 #include <malloc.h>
 #include "mark_sweep.h"
 
+void *heap;
 void mark();
 void sweep();
 
