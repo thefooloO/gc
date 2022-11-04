@@ -26,6 +26,14 @@ void free_t(void *ptr) {
 
 }
 
+void attach_t(void *parent, void *child) {
+
+}
+
+void detach_t(void *parent, void *child) {
+
+}
+
 void mark() {
     printf("mark phase.\n");
 }
